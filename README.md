@@ -1,5 +1,7 @@
 # Bi-CMAC
 This repository contains the code for Bi-directional Cross-Modal Sentiment Analysis (BCMSA), which integrates gated fusion and supervised contrastive learning to enhance multimodal sentiment recognition.
+1.Resource Utilization Statement
+Our main and ablation experiments were conducted on H20-NVLink (96GB) GPUs. Due to the high computational cost, we report results from relatively strong runs. However, we observed that the performance variance under the same parameter settings was not significant.
 
 | Parameter                  | Value      | Note               |
 | -------------------------- | ---------- | ------------------ |
