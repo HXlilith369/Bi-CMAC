@@ -1,6 +1,8 @@
 # Bi-CMAC
 This repository contains the code for Bi-directional Cross-Modal Sentiment Analysis (BCMSA), which integrates gated fusion and supervised contrastive learning to enhance multimodal sentiment recognition.
 
+Note: The code in this project was accelerated with the assistance of AI and subsequently verified by the authors, who also take responsibility for any potential errors. Some comments were modified with AI support as part of discussions between the authors and the AI.
+
 We release two code versions: an original ipynb notebook that preserves traces of early experiments (including some repetition and verbosity) for learning purposes, and a project version that has been cleaned up and refactored for reproducibility and extension.The project version repository will be made publicly available soon.
 
 1.Resource Utilization Statement
