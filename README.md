@@ -5,6 +5,10 @@ Note: The code in this project was accelerated with the assistance of AI and sub
 
 We release two code versions: an original ipynb notebook that preserves traces of early experiments (including some repetition and verbosity) for learning purposes, and a project version that has been cleaned up and refactored for reproducibility and extension.The project version repository will be made publicly available soon.
 
+The data for testing is shared on Baidu Cloud. Link: https://pan.baidu.com/s/1-XspU7kMl0BQyAIK70xxaA
+Extraction code: dqy7
+-- Shared by Baidu Cloud Super Member V6.
+
 1.Resource Utilization Statement
 Our main and ablation experiments were conducted on H20-NVLink (96GB) GPUs. Due to the high computational cost, we report results from relatively strong runs. However, we observed that the performance variance under the same parameter settings was not significant.
 
