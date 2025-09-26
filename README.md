@@ -14,7 +14,9 @@ Our main and ablation experiments were conducted on H20-NVLink (96GB) GPUs. Due 
 
 2.For binary classification, when class 0 is excluded we recommend disabling the class-imbalance weighting module; for binary classification including class 0 and for the seven-class setting, we enable this module to mitigate label-distribution imbalance.
 
-3.The key hyperparameters are as follows.
+3.The key hyperparameters are as follows. 
+During training, we adopt early stopping to avoid overfitting, and always save the checkpoint that achieves the best validation performance. All reported results are based on this best model selection.
+
 
 | Parameter                  | Value      | Note               |
 | -------------------------- | ---------- | ------------------ |
