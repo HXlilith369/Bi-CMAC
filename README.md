@@ -3,7 +3,7 @@ This repository contains the code for Bi-directional Cross-Modal Sentiment Analy
 
 We release two code versions: an original ipynb notebook that preserves traces of early experiments (including some repetition and verbosity) for learning purposes, and a project version that has been cleaned up and refactored for reproducibility and extension.The project version repository will be made publicly available soon.
 
-The code in this project was accelerated with the assistance of AI and subsequently verified and/or modified by the authors, who also take responsibility for any potential errors. Some comments were modified with AI support as part of discussions between the authors and the AI.AI suggested adding a seed fixer in the DataLoader, but we have not adopted it for now. The reason is that in JupyterLab we need to run multiple seeds, and fixing the seed would require repeatedly reloading the data, which could potentially cause the kernel to crash.
+Some code in this project was accelerated with the assistance of AI and subsequently verified and/or modified by the authors, who also take responsibility for any potential errors. Some comments were modified with AI support as part of discussions between the authors and the AI.AI suggested adding a seed fixer in the DataLoader, but we have not adopted it for now. The reason is that in JupyterLab we need to run multiple seeds, and fixing the seed would require repeatedly reloading the data, which could potentially cause the kernel to crash.
 
 The data for testing is shared on Baidu Cloud. Link: https://pan.baidu.com/s/1-XspU7kMl0BQyAIK70xxaA
 Extraction code: dqy7
